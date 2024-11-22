@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="js/index.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Baybayin Translator" />
+     <title>Baybayin Translator</title>
+    <meta
+      name="description"
+      content="Translates words and sentences to modern Filipino Baybayin."
+    />
+  </head>
+  <body>
+    <div id="toast">
+      <p>Text copied</p>
+    </div>
+
+    <div class="flex-row">
+      <!-- Navigation / Header  -->
+      <div id="navigation-header" class="header">
+        <h1>Baybayin Translator</h1>
+      </div>
+      <!-- Navigation / Header End -->
+      <!-- Script picker and Switcher Div  -->
+
+      <div id="languageSwitch" class="flex-jcc switch border-bottom">
+        <div class="translator-main-switch flex-jcc">
+          <div class="dropdown" style="display: none;">
+          <div id="languageSwitch" class="flex-jcc switch border-bottom">
+  <div class="translator-main-switch flex-jcc">
+    <h3 id="languageSelected">Tagalog to Baybayin</h3>
+  </div>
+</div>
+          </div>
+        </div>
+      </div>
+      <!-- Script picker and Switcher Div End -->
+      <!-- Main Translator Div -->
+      <div id="translatorMain" class="translator-main flex-jcc">
+        <!-- Translator Blocks Div  -->
+        <div class="translator-main-blocks">
+          <!-- Tagalog Text Area -->
+          <div class="translator-main-blocks-raw border-right border-bottom">
+            <label for="tagalogTextArea">Tagalog</label>
+            <textarea
+              name="tagalog-text-area"
+              id="tagalogTextArea"
+              placeholder="Type text here"
+              onclick="focus()"
+              onkeyup="convertText()"
+            ></textarea>
+            <button
+              id="clearButton"
+              onclick="clearText()"
+              style="cursor: pointer"
+            >
+              Clear
+            </button>
+          </div>
+
+          <!-- Tagalog Text Area  End-->
+
+          <!-- Translated  Text Area -->
+          <div class="translator-main-blocks-translated border-bottom">
+            <label for="translatedTextArea">Translation</label>
+
+            <textarea
+              name="translated-text-area"
+              id="translatedTextArea"
+              readonly
+            ></textarea>
+            <button
+              id="copyButton"
+              onclick="copyText()"
+              style="cursor: pointer"
+            >
+              Copy
+            </button>
+          </div>
+
+          <!-- Translated Text Area  End-->
+        </div>
+        <!-- Translator Blocks Div End  -->
+      </div>
+      <!-- Main Translator Div -->
+      <div id="credit-footer" class="footer">
+        <p>Open-Source projects used:<br><a href="https://github.com/jennayey/philippine-scripts-translator">philippine-scripts-translator</a>
+<br>&copy;2020-Present Jenna Angala<br><br><a href="https://fonts.google.com/noto/specimen/Noto+Sans+Tagalog/about">Noto Sans Tagalog font</a><br>&copy;2022 The Noto Project Authors</p>
+        
+
+<p>&copy;2024-Present TheDoggyBrad Software Labs.<br>Licensed under the <a href="">GPL-3.0 License</a></p>
+      </div>
+    </div>
+    
+  </body>
+</html>
