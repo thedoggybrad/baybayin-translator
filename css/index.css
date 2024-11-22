@@ -208,6 +208,19 @@ margin: 15px;}
 }
 
 
+/* Dropdown Styles */
+
+.dropdown {
+  display: inline-block;
+  position:relative;
+}
+.dropdown {
+  border: solid;
+  border-radius: 20px;
+  border-color: var(--gray-medium);
+}
+
+
 .selected {
   background-color: var(--gray-medium);
 }
