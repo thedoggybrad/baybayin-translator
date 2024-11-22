@@ -46,12 +46,7 @@ Stylesheet
   src: url(.././assets/fonts/Baybayin/NotoSansTagalog.otf);
 }
 
-
-/* @font-face {
-  font-family: Hanunuo;
-  src: url(TintangHanunuo.otf);
-} */
-/* ************************************************************************************************** */
+ ************************************************************************************************** */
 
 /* 03 Desktop Styles */
 
@@ -187,20 +182,7 @@ button:hover{
   font-family: Baybayin;
 
 }
-.hanunoo {
-  font-family: Hanunoo;
 
-}
-
-.buhid {
-  font-family: Buhid;
-
-}
-
-.tagbanwa {
-  font-family: Tagbanwa;
-
-}
 
 /* Toast */
 
@@ -225,41 +207,6 @@ margin: 15px;}
   animation: fadein 0.3s, fadeout 0.3s 2s;
 }
 
-/* Dropdown Styles */
-
-.dropdown {
-  display: inline-block;
-  position:relative;
-}
-.dropdown {
-  border: solid;
-  border-radius: 20px;
-  border-color: var(--gray-medium);
-}
-
-.dropdown-contents {
-  margin-top: 10px;
-  display: none;
-  position: absolute;
-  background-color: white;
-  text-align: center;
-  min-width: 220px;
-  
-  right: -8px;
-  
-  box-shadow: var(--box-shadow-darker);
-  border-radius: 20px;
-}
-
-
-.dropdown-contents a {
-display: block;
-padding: 15px;
-font-weight: bold;
-text-decoration: none;
-border-radius: 20px;
-
-}
 
 .selected {
   background-color: var(--gray-medium);
