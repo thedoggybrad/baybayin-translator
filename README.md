@@ -1,5 +1,7 @@
 # Baybayin Translator by TheDoggyBrad
+Baybayin Translator by TheDoggyBrad helps you translate words and sentences in romanized form to modern Filipino Baybayin.
 
+## Disclaimer and Copyright Notice
 <i>Disclaimer: The creation of this software is not consulted with Baybayin experts.<br>
 Translation accuracy is not guranteed.<br>
 Please validate results with other reliable sources.</i><br>
