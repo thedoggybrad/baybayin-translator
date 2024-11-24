@@ -1,5 +1,10 @@
+<img src="https://thedoggybrad.github.io/baybayin-translator/android-chrome-512x512.png" height="128px" width="128px">
+
 # Baybayin Translator by TheDoggyBrad
 Baybayin Translator by TheDoggyBrad helps you translate words and sentences in romanized form to modern Filipino Baybayin.
+
+## Try it now
+[Click Here](https://thedoggybrad.github.io/baybayin-translator/) to try!
 
 ## Disclaimer and Copyright Notice
 <i>Disclaimer: The creation of this software is not consulted with Baybayin experts.<br>
